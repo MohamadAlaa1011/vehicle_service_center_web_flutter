@@ -1,0 +1,51 @@
+name: vehicle_service_center_web
+description: A Flutter web application for Vehicle Service Center Management System
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  go_router: ^12.0.0
+  flutter_riverpod: ^2.4.0
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.3.0
+  json_annotation: ^4.8.0
+  
+  # Storage
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^9.0.0
+  
+  # UI Components
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+  
+  # Charts
+  fl_chart: ^0.66.0
+  
+  # Utils
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
